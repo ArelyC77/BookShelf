@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A9D4E752BB9E53900E4BB80 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D4E742BB9E53900E4BB80 /* PosterCell.swift */; };
+		0A9D4E772BB9E58A00E4BB80 /* PostersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D4E762BB9E58A00E4BB80 /* PostersViewController.swift */; };
+		0A9D4E822BB9E9DA00E4BB80 /* Posters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D4E812BB9E9DA00E4BB80 /* Posters.swift */; };
+		0A9D4E852BB9EEE600E4BB80 /* DetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D4E842BB9EEE600E4BB80 /* DetailViewController2.swift */; };
+		0A9D4E882BB9F56500E4BB80 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 0A9D4E872BB9F56500E4BB80 /* Nuke */; };
 		CB13E51F2913A16C008F45BB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13E51E2913A16C008F45BB /* PostCell.swift */; };
 		CB13E5212913B10B008F45BB /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13E5202913B10B008F45BB /* DateFormatter+Extensions.swift */; };
 		CB69974E2910F705007EDA6B /* Filmotype-Jade.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB69974C2910F704007EDA6B /* Filmotype-Jade.otf */; };
@@ -27,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A9D4E742BB9E53900E4BB80 /* PosterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		0A9D4E762BB9E58A00E4BB80 /* PostersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostersViewController.swift; sourceTree = "<group>"; };
+		0A9D4E812BB9E9DA00E4BB80 /* Posters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Posters.swift; sourceTree = "<group>"; };
+		0A9D4E842BB9EEE600E4BB80 /* DetailViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController2.swift; sourceTree = "<group>"; };
 		CB13E51E2913A16C008F45BB /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		CB13E5202913B10B008F45BB /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		CB69974C2910F704007EDA6B /* Filmotype-Jade.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Filmotype-Jade.otf"; sourceTree = "<group>"; };
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9D4E882BB9F56500E4BB80 /* Nuke in Frameworks */,
 				CB7896F729371AAE00635932 /* ParseSwift in Frameworks */,
 				CB7896FA29371B4600635932 /* AlamofireImage in Frameworks */,
 			);
@@ -59,6 +69,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A9D4E832BB9EB6D00E4BB80 /* BookCovers */ = {
+			isa = PBXGroup;
+			children = (
+				0A9D4E842BB9EEE600E4BB80 /* DetailViewController2.swift */,
+				0A9D4E812BB9E9DA00E4BB80 /* Posters.swift */,
+				0A9D4E742BB9E53900E4BB80 /* PosterCell.swift */,
+				0A9D4E762BB9E58A00E4BB80 /* PostersViewController.swift */,
+			);
+			path = BookCovers;
+			sourceTree = "<group>";
+		};
 		CB13E51B2913A0E7008F45BB /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +150,7 @@
 				CB13E51C2913A100008F45BB /* Post */,
 				CB13E5222913B119008F45BB /* Extensions */,
 				CB73D39A290E3B4A00C12538 /* Main.storyboard */,
+				0A9D4E832BB9EB6D00E4BB80 /* BookCovers */,
 				CB73D39D290E3B4C00C12538 /* Assets.xcassets */,
 				CB73D39F290E3B4C00C12538 /* LaunchScreen.storyboard */,
 				CB73D3A2290E3B4C00C12538 /* Info.plist */,
@@ -165,6 +187,7 @@
 			packageProductDependencies = (
 				CB7896F629371AAE00635932 /* ParseSwift */,
 				CB7896F929371B4600635932 /* AlamofireImage */,
+				0A9D4E872BB9F56500E4BB80 /* Nuke */,
 			);
 			productName = "lab-insta-parse";
 			productReference = CB73D391290E3B4A00C12538 /* lab-insta-parse.app */;
@@ -197,6 +220,7 @@
 			packageReferences = (
 				CB7896F529371AAE00635932 /* XCRemoteSwiftPackageReference "Parse-Swift" */,
 				CB7896F829371B4600635932 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				0A9D4E862BB9F56500E4BB80 /* XCRemoteSwiftPackageReference "Nuke" */,
 			);
 			productRefGroup = CB73D392290E3B4A00C12538 /* Products */;
 			projectDirPath = "";
@@ -228,12 +252,16 @@
 			files = (
 				CB13E51F2913A16C008F45BB /* PostCell.swift in Sources */,
 				CBCDFAFE291144DA001F1CF1 /* PostViewController.swift in Sources */,
+				0A9D4E822BB9E9DA00E4BB80 /* Posters.swift in Sources */,
+				0A9D4E852BB9EEE600E4BB80 /* DetailViewController2.swift in Sources */,
 				CBE72850293741370005CA57 /* ViewController+Extensions.swift in Sources */,
 				CB73D399290E3B4A00C12538 /* LoginViewController.swift in Sources */,
 				CB73D395290E3B4A00C12538 /* AppDelegate.swift in Sources */,
+				0A9D4E772BB9E58A00E4BB80 /* PostersViewController.swift in Sources */,
 				CB6997532911354B007EDA6B /* FeedViewController.swift in Sources */,
 				CB7896FD29371C3C00635932 /* User.swift in Sources */,
 				CB6997512911044D007EDA6B /* SignUpViewController.swift in Sources */,
+				0A9D4E752BB9E53900E4BB80 /* PosterCell.swift in Sources */,
 				CB13E5212913B10B008F45BB /* DateFormatter+Extensions.swift in Sources */,
 				CB73D397290E3B4A00C12538 /* SceneDelegate.swift in Sources */,
 				CB7896FF29371C4900635932 /* Post.swift in Sources */,
@@ -456,6 +484,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0A9D4E862BB9F56500E4BB80 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = exactVersion;
+				version = 9.6.1;
+			};
+		};
 		CB7896F529371AAE00635932 /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/parse-community/Parse-Swift";
@@ -475,6 +511,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0A9D4E872BB9F56500E4BB80 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A9D4E862BB9F56500E4BB80 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
 		CB7896F629371AAE00635932 /* ParseSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CB7896F529371AAE00635932 /* XCRemoteSwiftPackageReference "Parse-Swift" */;
