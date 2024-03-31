@@ -20,7 +20,7 @@ class DetailViewController2: UIViewController {
     @IBOutlet weak var durationLabel: UILabel!
 
     // TODO: Pt 1 - Add a track property
-    var track: Track!
+    //var track: Track!
     var posters: Posters!
     
 
