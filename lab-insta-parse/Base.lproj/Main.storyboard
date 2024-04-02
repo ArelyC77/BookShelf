@@ -220,13 +220,13 @@ Credits
                                 </subviews>
                             </stackView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hc8-DS-n9q">
-                                <rect key="frame" x="20" y="863" width="372" height="35"/>
+                                <rect key="frame" x="0.0" y="863" width="392" height="35"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="equalSpacing" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="l8d-cu-0rh">
-                                        <rect key="frame" x="0.0" y="0.0" width="372" height="35"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="l8d-cu-0rh">
+                                        <rect key="frame" x="0.0" y="0.0" width="392" height="35"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VsD-7j-X9O">
-                                                <rect key="frame" x="0.0" y="0.0" width="237" height="35"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="283.66666666666669" height="35"/>
                                                 <string key="text">Copyright @ 2024 Bockshelf inc. LLC
 User Agreement
 Privacy Policy
@@ -237,7 +237,7 @@ Credits
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppIcon1024x1024.png 19-49-12-715" translatesAutoresizingMaskIntoConstraints="NO" id="JfZ-WK-hbw">
-                                                <rect key="frame" x="337" y="0.0" width="35" height="35"/>
+                                                <rect key="frame" x="357" y="0.0" width="35" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="35" id="BgI-Ux-UtR"/>
                                                     <constraint firstAttribute="height" constant="35" id="VKH-4Q-BOM"/>
@@ -257,12 +257,15 @@ Credits
                         <viewLayoutGuide key="safeArea" id="gAh-p5-Pyu"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
+                            <constraint firstItem="gAh-p5-Pyu" firstAttribute="trailing" secondItem="Hc8-DS-n9q" secondAttribute="trailing" constant="29" id="3M0-as-bLm"/>
                             <constraint firstItem="gAh-p5-Pyu" firstAttribute="trailing" secondItem="Hc8-DS-n9q" secondAttribute="trailing" constant="38" id="R25-oj-x4O"/>
+                            <constraint firstItem="gAh-p5-Pyu" firstAttribute="trailing" secondItem="Hc8-DS-n9q" secondAttribute="trailing" id="j4N-8J-ixX"/>
                             <constraint firstItem="Hc8-DS-n9q" firstAttribute="bottom" secondItem="gAh-p5-Pyu" secondAttribute="bottom" id="lZu-Az-8pN"/>
                             <constraint firstItem="HrU-Ph-oLa" firstAttribute="centerY" secondItem="hnZ-u2-eVN" secondAttribute="centerY" multiplier="0.7" id="mwI-ge-koc"/>
                             <constraint firstItem="gAh-p5-Pyu" firstAttribute="trailing" secondItem="HrU-Ph-oLa" secondAttribute="trailing" constant="24" id="n60-0f-2Kl"/>
                             <constraint firstItem="Hc8-DS-n9q" firstAttribute="leading" secondItem="hnZ-u2-eVN" secondAttribute="leadingMargin" id="oIu-n6-NqO"/>
                             <constraint firstItem="HrU-Ph-oLa" firstAttribute="leading" secondItem="gAh-p5-Pyu" secondAttribute="leading" constant="24" id="u4N-Cs-UGM"/>
+                            <constraint firstItem="Hc8-DS-n9q" firstAttribute="leading" secondItem="gAh-p5-Pyu" secondAttribute="leading" id="yfl-CO-4t3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="BookShelf" id="7Of-Aa-Qfu"/>
@@ -274,7 +277,7 @@ Credits
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ftn-IS-5Fd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1747.6923076923076" y="-2.1327014218009479"/>
+            <point key="canvasLocation" x="1746.9767441860465" y="-2.5751072961373391"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pPO-Vv-xve">
