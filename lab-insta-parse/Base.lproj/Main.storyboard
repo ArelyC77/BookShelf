@@ -73,7 +73,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Oh3-Iz-IeO">
-                                <rect key="frame" x="70.333333333333314" y="447.33333333333326" width="249.66666666666669" height="279.66666666666674"/>
+                                <rect key="frame" x="70.333333333333329" y="447.33333333333326" width="249.66666666666669" height="279.66666666666674"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Don't have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAz-Tx-FSv">
                                         <rect key="frame" x="0.0" y="131.00000000000006" width="161" height="18"/>
@@ -82,7 +82,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IET-Ub-6IG">
-                                        <rect key="frame" x="161" y="122.66666666666669" width="88.666666666666686" height="34.333333333333314"/>
+                                        <rect key="frame" x="161" y="122.66666666666667" width="88.666666666666686" height="34.333333333333329"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Sign Up."/>
                                         <connections>
@@ -97,11 +97,11 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uo7-Ab-05Q">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="50"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Qvf-0I-TbF">
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qvf-0I-TbF">
                                                 <rect key="frame" x="0.0" y="15" width="390" height="35"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tya-lt-by1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="283.66666666666669" height="35"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="35"/>
                                                         <string key="text">Copyright @ 2024 Bockshelf inc. LLC
 User Agreement
 Privacy Policy
@@ -219,13 +219,57 @@ Credits
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sfX-Yl-Nwk">
+                                <rect key="frame" x="0.33333333333334281" y="397" width="389.66666666666663" height="50"/>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hc8-DS-n9q">
+                                <rect key="frame" x="-2" y="760" width="394" height="50"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="l8d-cu-0rh">
+                                        <rect key="frame" x="0.0" y="15" width="394" height="35"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VsD-7j-X9O">
+                                                <rect key="frame" x="0.0" y="0.0" width="284" height="35"/>
+                                                <string key="text">Copyright @ 2024 Bockshelf inc. LLC
+User Agreement
+Privacy Policy
+Credits
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppIcon1024x1024.png 19-49-12-715" translatesAutoresizingMaskIntoConstraints="NO" id="JfZ-WK-hbw">
+                                                <rect key="frame" x="359" y="0.0" width="35" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="35" id="BgI-Ux-UtR"/>
+                                                    <constraint firstAttribute="height" constant="35" id="VKH-4Q-BOM"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="l8d-cu-0rh" secondAttribute="trailing" id="LoU-4r-qXd"/>
+                                    <constraint firstItem="l8d-cu-0rh" firstAttribute="leading" secondItem="Hc8-DS-n9q" secondAttribute="leading" id="aBc-Al-c5o"/>
+                                    <constraint firstAttribute="bottom" secondItem="l8d-cu-0rh" secondAttribute="bottom" id="fU8-Ot-VnH"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gAh-p5-Pyu"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
+                            <constraint firstItem="sfX-Yl-Nwk" firstAttribute="centerY" secondItem="hnZ-u2-eVN" secondAttribute="centerY" id="1zX-2q-dKn"/>
+                            <constraint firstItem="sfX-Yl-Nwk" firstAttribute="top" secondItem="gAh-p5-Pyu" secondAttribute="top" constant="306" id="8uF-dM-MCT"/>
+                            <constraint firstItem="Hc8-DS-n9q" firstAttribute="top" secondItem="hnZ-u2-eVN" secondAttribute="top" constant="760" id="RVV-lo-D6v"/>
+                            <constraint firstItem="Hc8-DS-n9q" firstAttribute="trailing" secondItem="sfX-Yl-Nwk" secondAttribute="trailing" constant="2" id="ZTw-yo-q1T"/>
+                            <constraint firstItem="Hc8-DS-n9q" firstAttribute="bottom" secondItem="gAh-p5-Pyu" secondAttribute="bottom" id="lZu-Az-8pN"/>
                             <constraint firstItem="HrU-Ph-oLa" firstAttribute="centerY" secondItem="hnZ-u2-eVN" secondAttribute="centerY" multiplier="0.7" id="mwI-ge-koc"/>
                             <constraint firstItem="gAh-p5-Pyu" firstAttribute="trailing" secondItem="HrU-Ph-oLa" secondAttribute="trailing" constant="24" id="n60-0f-2Kl"/>
                             <constraint firstItem="HrU-Ph-oLa" firstAttribute="leading" secondItem="gAh-p5-Pyu" secondAttribute="leading" constant="24" id="u4N-Cs-UGM"/>
+                            <constraint firstItem="Hc8-DS-n9q" firstAttribute="leading" secondItem="sfX-Yl-Nwk" secondAttribute="leading" constant="-2" id="xNF-fj-krp"/>
+                            <constraint firstItem="Hc8-DS-n9q" firstAttribute="centerX" secondItem="HrU-Ph-oLa" secondAttribute="centerX" id="yqD-H0-5yX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="BookShelf" id="7Of-Aa-Qfu"/>
@@ -237,7 +281,7 @@ Credits
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ftn-IS-5Fd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1748" y="-2"/>
+            <point key="canvasLocation" x="1747.6923076923076" y="-2.1327014218009479"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pPO-Vv-xve">
@@ -514,10 +558,10 @@ Credits
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="quaternaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.17647058823529413" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.1764705882" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
