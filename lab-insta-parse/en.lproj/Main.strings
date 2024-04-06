@@ -1,0 +1,66 @@
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "3DH-ur-kyc"; */
+"3DH-ur-kyc.title" = " ";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "5pD-xS-TXs"; */
+"5pD-xS-TXs.placeholder" = "Username";
+
+/* Class = "UINavigationItem"; title = "BookShelf"; ObjectID = "7Of-Aa-Qfu"; */
+"7Of-Aa-Qfu.title" = "BookShelf";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "8UY-v9-SbL"; */
+"8UY-v9-SbL.title" = " ";
+
+/* Class = "UITextField"; placeholder = "Write a caption..."; ObjectID = "Amx-Rq-yFI"; */
+"Amx-Rq-yFI.placeholder" = "Write a caption...";
+
+/* Class = "UIButton"; configuration.title = "Sign Up."; ObjectID = "IET-Ub-6IG"; */
+"IET-Ub-6IG.configuration.title" = "Sign Up.";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IET-Ub-6IG"; */
+"IET-Ub-6IG.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Instaparse"; ObjectID = "LaS-Bo-eDE"; */
+"LaS-Bo-eDE.title" = "Instaparse";
+
+/* Class = "UILabel"; text = "BookShelf"; ObjectID = "XGx-Ld-H6T"; */
+"XGx-Ld-H6T.text" = "BookShelf";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "YAz-Tx-FSv"; */
+"YAz-Tx-FSv.text" = "Don't have an account?";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "ZRk-ag-gPv"; */
+"ZRk-ag-gPv.placeholder" = "Email";
+
+/* Class = "UIButton"; configuration.title = " Log in"; ObjectID = "bfO-dy-o7P"; */
+"bfO-dy-o7P.configuration.title" = " Log in";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bfO-dy-o7P"; */
+"bfO-dy-o7P.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "fTT-rM-c3u"; */
+"fTT-rM-c3u.placeholder" = "Username";
+
+/* Class = "UIButton"; configuration.title = "Sign Up"; ObjectID = "foU-o4-ATk"; */
+"foU-o4-ATk.configuration.title" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "foU-o4-ATk"; */
+"foU-o4-ATk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "ixb-cg-dMc"; */
+"ixb-cg-dMc.text" = "Sign Up";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jdU-SN-N0j"; */
+"jdU-SN-N0j.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "nAU-Ud-dn0"; */
+"nAU-Ud-dn0.placeholder" = "Password";
+
+/* Class = "UIBarButtonItem"; title = "Share"; ObjectID = "oL3-4g-14f"; */
+"oL3-4g-14f.title" = "Share";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ro2-Cf-yEI"; */
+"ro2-Cf-yEI.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uXM-7I-OT0"; */
+"uXM-7I-OT0.text" = "Label";
