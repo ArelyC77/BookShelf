@@ -47,35 +47,35 @@ BookShelf is an app that gives information about the book such as the summary, g
 
 ### 2. Screen Archetypes
 
-- [ ] **Login Screen**
+- [X] **Login Screen**
 * User can log in
-- [ ] **Sign Up Screen**
+- [X] **Sign Up Screen**
 * User can sign up
-- [ ] **BookShelf Home Screen**
+- [X] **BookShelf Home Screen**
 * User can see a scrollable list of books with a small descriptions
-- [ ] **Book Information Screen**
+- [X] **Book Information Screen**
 * User can see the book's author, summary, and genre
-- [ ] **Book Covers**
+- [X] **Book Covers**
 * User can see a list of interactive book covers
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
 
-- [ ] First Tab: BookShelf Home Screen
-- [ ] Second Tab: Book Covers Screen
+- [X] First Tab: BookShelf Home Screen
+- [X] Second Tab: Book Covers Screen
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] **Login Screen**
+- [X] **Login Screen**
   * Leads to **BookShelf Home Screen**
-- [ ] **Sign Up Screen**
+- [X] **Sign Up Screen**
   * Leads to **Bookshelf Home Screen**
-- [ ] **Clicking on a book from BookShelf Home Screen**
+- [X] **Clicking on a book from BookShelf Home Screen**
   * Leads to **Bookshelf Information Screen**
-- [ ] **Clicking on a book from Book Covers Screen**
+- [X] **Clicking on a book from Book Covers Screen**
   * Leads to **Bookshelf Information Screen**
-- [ ] **Clicking on logout button from BookShelf Home Screen**
+- [X] **Clicking on logout button from BookShelf Home Screen**
   * Leads to **Login Screen**
 
 ## Wireframes
