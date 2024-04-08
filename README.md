@@ -33,16 +33,16 @@ BookShelf is an app that gives information about the book such as the summary, g
 
 **Required Must-have Stories**
 
-* User can sign up to use the app
-* User can login to their existing account
-* User can logout of the app
-* User can open the app and see a list of books
-* User can click on the book and see the book's summary, author, and genre
-* User can click on a navigation button to see a list of book covers
+[X] User can sign up to use the app
+[X] User can login to their existing account
+[X] User can logout of the app
+[X] User can open the app and see a list of books
+[X] User can click on the book and see the book's summary, author, and genre
+[X] User can click on a navigation button to see a list of book covers
 
 **Optional Nice-to-have Stories**
 
-* User can heart books they like
+[ ] User can heart books they like
 
 
 ### 2. Screen Archetypes
